@@ -1,0 +1,36 @@
+<!-- carrito.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" href="stylecarrito.css">
+</head>
+<body>
+  <header>
+    <h1>MundoGamer - Carrito de Compras</h1>
+    <nav>
+      <ul>
+        <li><a href="tienda.html">Volver a la Tienda</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="carrito">
+      <h2>Carrito de Compras</h2>
+      <ul id="listaCarrito"></ul>
+      <p>Total: $<span id="totalCarrito">0.00</span></p>
+      <button onclick="realizarCompra()">Realizar Compra</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 MundoGamer - Tienda Online. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="carrito.js"></script>
+</body>
+</html>

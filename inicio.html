@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MundoGamer</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <h1>MundoGamer</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="tienda.html">Tienda</a></li>
+      <li><a href="noticias.html">Noticias</a></li>
+      <li><a href="eventos.html">Eventos</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="tienda">
+      <h2>Tienda</h2>
+      <p>Explora nuestra amplia selección de productos gamer.</p>
+      <button onclick="mostrarInfoProductos()">Mostrar Información</button>
+      <p id="infoProductos" style="display:none;">
+        Aquí puedes agregar información detallada sobre tus productos.
+        Por ejemplo, especificaciones, precios, y más.
+      </p>
+    </section>
+
+    <section id="noticias">
+      <h2>Noticias</h2>
+      <article>
+        <h3>Gran Lanzamiento</h3>
+        <p>Estamos emocionados de anunciar el lanzamiento de nuevos productos. ¡Descúbrelos ahora!</p>
+      </article>
+      <article>
+        <h3>Evento Especial</h3>
+        <p>Próximamente: Evento especial para todos los amantes de los videojuegos. ¡No te lo pierdas!</p>
+      </article>
+    </section>
+
+    <section id="eventos">
+      <h2>Eventos</h2>
+      <p>Participa en nuestros emocionantes eventos gamer. ¡Conoce a otros jugadores y disfruta de la diversión!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 MundoGamer. Todos los derechos reservados.</p>
+  </footer>
+
+<button id="mostrarInfoProductosBtn">Mostrar Información</button>
+<p id="infoProductos" style="display:none;">
+  Aquí puedes agregar información detallada sobre tus productos.
+  Por ejemplo, especificaciones, precios, y más.
+</p>
+
+<script src="scripts.js"></script>
+</body>
+</html>
+
